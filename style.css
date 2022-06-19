@@ -1,0 +1,70 @@
+#app {
+  /* background-color: red; */
+  margin: 0vh 25vh;
+}
+
+#todo-title {
+  text-align: center;
+  border: 5px;
+  border-style: outset;
+  margin: 2vh 40vh;
+  background: royalblue;
+  color: white;
+  text-shadow: 2px 3px #000;
+  font-family: "Courier New", monospace;
+}
+
+#todo-subtitle {
+  text-align: center;
+  /* margin: 10vh; */
+  padding: 10vh 10vh 0 10vh;
+  font-family: "Courier New", monospace;
+  word-spacing: 10px;
+  white-space: nowrap;
+  transition: width 2s, height 2s, transform 5s;
+  color: #212121;
+}
+
+/* #todo-subtitle:hover {
+  transform: rotate(360deg);
+  padding: 10vh 10vh 0 10vh;
+} */
+
+#todo-input {
+  width: 40vh;
+  padding: 12px 5px;
+  margin: 0 0 0 255px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-color: royalblue;
+}
+
+#todo-submit {
+  border-radius: 2px;
+  padding: 12px 5px;
+  width: 15vh;
+  background-color: white;
+}
+
+#todo-submit:hover {
+  cursor: pointer;
+  background-color: royalblue;
+  color: white;
+}
+
+#todo-output {
+  width: 40vh;
+  padding: 5vh 4vh;
+  margin: 0 0 0 255px;
+}
+
+li {
+  padding: 10px 15px;
+  border-style: dotted;
+  border-radius: 5px;
+  width: 40vh;
+  margin: 10px -27px;
+  border-color: #000;
+  background-color: royalblue;
+  color: #000;
+}
